@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tdd">
+      <UniqueIdentifier>{1ddc26e1-1451-476b-b84d-ddc8ecd5f61f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\abstracttest.h">
+      <Filter>tdd</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\tdd.h">
+      <Filter>tdd</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\testexception.h">
+      <Filter>tdd</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\feedback.h">
+      <Filter>tdd</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\listitem.h">
+      <Filter>tdd</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\linkedlist.h">
+      <Filter>tdd</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\testitem.h">
+      <Filter>tdd</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\testcollection.h">
+      <Filter>tdd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\abstracttest.cpp">
+      <Filter>tdd</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\feedback.cpp">
+      <Filter>tdd</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\listitem.cpp">
+      <Filter>tdd</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\linkedlist.cpp">
+      <Filter>tdd</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\testitem.cpp">
+      <Filter>tdd</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\testcollection.cpp">
+      <Filter>tdd</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

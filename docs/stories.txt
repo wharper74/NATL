@@ -1,0 +1,24 @@
+
+TDD basic library for testing NATL
+
+natl heap memory management : allocation, deallocation, garbage collector algorithms
+natl ansi string support
+natl unified string interface (support both ansi and unicode)
+natl date & time  support
+natl unicode string support
+
+natl utilities : pair
+natl utilities : tuple
+natl utilities : function objects
+
+natl containers : array
+natl containers : vector
+natl containers : map (ordered & unordered)
+natl containers : queue
+natl containers : stack
+natl containers : priority queue
+natl containers : associative containers
+
+natl stream : output stream interface
+natl stream : input stream interface
+

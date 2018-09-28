@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\abstracttest.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\feedback.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\linkedlist.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\listitem.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\testcollection.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\testitem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\abstracttest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\linkedlist.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\tdd.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\testcollection.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\testexception.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\listitem.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\feedback.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\tdd\testitem.h" />
+  </ItemGroup>
+</Project>
